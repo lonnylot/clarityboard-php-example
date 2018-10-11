@@ -27,7 +27,7 @@ Clarityboard\Client::setApiKey(getenv('API_KEY'));
 
 // Get our dashboard
 echo "Generating 'My Example Dashboard'\n";
-$dashboardsResponse = Clarityboard\Dashboard::all()->wait();
+$dashboardsResponse = Clarityboard\Dashboard::all();
 $dashboards = json_decode($dashboardsResponse->getBody()->getContents());
 
 for($i = 0; $i < count($dashboards); $i++) {
@@ -39,7 +39,7 @@ for($i = 0; $i < count($dashboards); $i++) {
 
 // If we don't have a dashboard then lets create it
 if (!isset($dashboard)) {
-  $dashboardResponse = Clarityboard\Dashboard::create(['name' => 'My Example Dashboard'])->wait();
+  $dashboardResponse = Clarityboard\Dashboard::create(['name' => 'My Example Dashboard']);
   $dashboard = json_decode($dashboardResponse->getBody()->getContents());
 }
 
@@ -51,7 +51,7 @@ $recordGroupResponse = Clarityboard\RecordGroup::update([
     'Submitted' => '2018-09-15T15:53:00',
     'Response Time' => '1 Hour'
   ]
-])->wait();
+]);
 $recordGroup = json_decode($recordGroupResponse->getBody()->getContents());
 
 echo "Generating reports for 'My Example Dashboard'.\n";

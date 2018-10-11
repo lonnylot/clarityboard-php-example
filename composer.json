@@ -3,7 +3,7 @@
     "description": "An example of using the Clarityboard PHP SDK",
     "type": "project",
     "require": {
-        "lonnylot/clarityboard-php-sdk": "^1.1",
+        "lonnylot/clarityboard-php-sdk": "^2.0",
         "vlucas/phpdotenv": "^2.5",
         "nesbot/carbon": "^2.1"
     },

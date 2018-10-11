@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc78d8286d86b73b76843d91b690a344",
+    "content-hash": "fc5f4bee6245e020a1ba04a1176475c3",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -189,16 +189,16 @@
         },
         {
             "name": "lonnylot/clarityboard-php-sdk",
-            "version": "v1.1",
+            "version": "v2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnylot/clarityboard-php-sdk.git",
-                "reference": "b1b55d50a4d14974d4c1600e11502efc2432efd8"
+                "reference": "029edf4cef973e1af917af79d151afa38d20d29b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnylot/clarityboard-php-sdk/zipball/b1b55d50a4d14974d4c1600e11502efc2432efd8",
-                "reference": "b1b55d50a4d14974d4c1600e11502efc2432efd8",
+                "url": "https://api.github.com/repos/lonnylot/clarityboard-php-sdk/zipball/029edf4cef973e1af917af79d151afa38d20d29b",
+                "reference": "029edf4cef973e1af917af79d151afa38d20d29b",
                 "shasum": ""
             },
             "require": {
@@ -226,20 +226,20 @@
                 }
             ],
             "description": "Clarityboard SDK for PHP",
-            "time": "2018-09-18T21:21:40+00:00"
+            "time": "2018-10-11T08:43:46+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.1.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "713c4019b8b53d22f220f4abbaf433205c13e872"
+                "reference": "22092e6179a9f2755400dfa28f86909081470d92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/713c4019b8b53d22f220f4abbaf433205c13e872",
-                "reference": "713c4019b8b53d22f220f4abbaf433205c13e872",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/22092e6179a9f2755400dfa28f86909081470d92",
+                "reference": "22092e6179a9f2755400dfa28f86909081470d92",
                 "shasum": ""
             },
             "require": {
@@ -281,7 +281,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-09-03T13:49:24+00:00"
+            "time": "2018-09-27T07:39:41+00:00"
         },
         {
             "name": "psr/http-message",
@@ -394,16 +394,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.1.4",
+            "version": "v4.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "fa2182669f7983b7aa5f1a770d053f79f0ef144f"
+                "reference": "9f0b61e339160a466ebcde167a6c5521c810e304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/fa2182669f7983b7aa5f1a770d053f79f0ef144f",
-                "reference": "fa2182669f7983b7aa5f1a770d053f79f0ef144f",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/9f0b61e339160a466ebcde167a6c5521c810e304",
+                "reference": "9f0b61e339160a466ebcde167a6c5521c810e304",
                 "shasum": ""
             },
             "require": {
@@ -459,7 +459,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-08-07T12:45:11+00:00"
+            "time": "2018-10-02T16:36:10+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
